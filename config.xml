@@ -205,7 +205,7 @@
         </Stills>
     </MediaPool>
     <MacroPool>
-        <Macro index="0" name="first_macro" description="">
+        <Macro index="0" name="Delete_macro" description="">
             <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="1"/>
             <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
             <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="0.460007"/>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile majorVersion="1" minorVersion="5" product="ATEM Mini">
+    <MixEffectBlocks>
+        <MixEffectBlock index="0">
+            <Program input="2002"/>
+            <Preview input="3010"/>
+            <NextTransition selection="Background, Key1" nextSelection="Background, Key1"/>
+            <TransitionStyle style="Dip" nextStyle="Dip" previewTransition="False" transitionPosition="0">
+                <MixParameters rate="25"/>
+                <DipParameters rate="25" input="0"/>
+                <WipeParameters rate="25" pattern="TopLeftDiagonal" symmetry="50" xPosition="0.5" yPosition="0.5" reverseDirection="True" flipFlip="False" borderInput="2001" borderWidth="0" borderSoftness="83"/>
+                <DVEParameters rate="25" logoRate="25" reverseDirection="True" flipFlop="False" effect="PushRight" fillSource="3010" keySource="3011" enableKey="True" preMultipliedKey="True" clip="50" gain="70" invertKey="False"/>
+            </TransitionStyle>
+            <Keys>
+                <Key index="0" type="Chroma" inputCut="3011" inputFill="1" onAir="False" masked="True" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16">
+                    <LumaParameters preMultiplied="False" clip="50" gain="70" inverse="False"/>
+                    <AdvancedChromaParameters foregroundLevel="0" backgroundLevel="26.6" keyEdge="95.6" spillSuppress="0" flareSuppress="0" brightness="14" contrast="0" saturation="100" red="0" green="0" blue="0" cursorXPosition="-5.87" cursorYPosition="1.27" cursorSize="6.2" sampledY="0.4781" sampledCb="0.3841" sampledCr="0.4033"/>
+                    <PatternParameters style="DiamondIris" inverse="False" size="50" symmetry="50" softness="83" xPosition="0.5" yPosition="0.5"/>
+                    <DVEParameters maskEnabled="True" maskTop="0.57" maskBottom="0.56" maskLeft="4.77" maskRight="4.74" shadowEnabled="True" lightSourceDirection="18" lightSourceAltitude="95" borderEnabled="True" borderStyle="None" borderBevelHue="54.2" borderBevelSaturation="46.4" borderBevelLuma="7.1" borderWidthOut="0" borderWidthIn="0" borderSoftnessOut="8" borderSoftnessIn="0" borderBevelOpacity="100" borderBevelPosition="0" borderBevelSoftness="0"/>
+                    <FlyParameters enabled="True" xPosition="-11.44" yPosition="-4.85" xSize="0.4" ySize="0.4" rotation="0" rate="25">
+                        <KeyFrameA xSize="0.4" ySize="0.4" xPosition="-11.44" yPosition="-4.85" rotation="0" borderWidthOut="0" borderWidthIn="0" borderSoftnessOut="8" borderSoftnessIn="0" borderBevelSoftness="0" borderBevelPosition="0" borderOpacity="100" borderHue="54.2" borderSaturation="46.4" borderLuma="7.1" borderLightSourceDirection="18" borderLightSourceAltitude="95" maskTop="0.57" maskBottom="0.56" maskLeft="4.77" maskRight="4.74"/>
+                        <KeyFrameB xSize="0.39" ySize="0.39" xPosition="10" yPosition="-5" rotation="0" borderWidthOut="0" borderWidthIn="0" borderSoftnessOut="8" borderSoftnessIn="0" borderBevelSoftness="0" borderBevelPosition="0" borderOpacity="100" borderHue="54.2" borderSaturation="46.4" borderLuma="7.1" borderLightSourceDirection="18" borderLightSourceAltitude="95" maskTop="0.57" maskBottom="0.56" maskLeft="4.77" maskRight="4.74"/>
+                    </FlyParameters>
+                </Key>
+            </Keys>
+            <FadeToBlack rate="25" isFullyBlack="False"/>
+        </MixEffectBlock>
+    </MixEffectBlocks>
+    <DownstreamKeys>
+        <DownstreamKey index="0" fillSource="3010" keySource="3011" rate="10" maskEnabled="True" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="False" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
+    </DownstreamKeys>
+    <ColorGenerators>
+        <ColorGenerator index="0" hue="299.2" saturation="99.8" luma="50.4"/>
+        <ColorGenerator index="1" hue="241" saturation="1.1" luma="40.7"/>
+    </ColorGenerators>
+    <Auxiliaries>
+        <Auxiliary id="8001" input="10010"/>
+    </Auxiliaries>
+    <Settings abDirect="False" cameraAux="-1">
+        <Inputs>
+            <Input id="1" shortName="CAM1" longName="Camera 1" externalPortType="HDMI"/>
+            <Input id="2" shortName="CAM2" longName="Camera 2" externalPortType="HDMI"/>
+            <Input id="3" shortName="CAM3" longName="Camera 3" externalPortType="HDMI"/>
+            <Input id="4" shortName="CAM4" longName="Camera 4" externalPortType="HDMI"/>
+            <Input id="11001" shortName="DIR" longName="Camera 1 Direct" externalPortType="HDMI"/>
+        </Inputs>
+        <ButtonMapping>
+            <Button index="0" externalInputIndex="0" mappedToCamera="False"/>
+            <Button index="1" externalInputIndex="1" mappedToCamera="False"/>
+            <Button index="2" externalInputIndex="2" mappedToCamera="False"/>
+            <Button index="3" externalInputIndex="3" mappedToCamera="False"/>
+            <Button index="4" externalInputIndex="4" mappedToCamera="False"/>
+            <Button index="5" externalInputIndex="5" mappedToCamera="False"/>
+            <Button index="6" externalInputIndex="6" mappedToCamera="False"/>
+            <Button index="7" externalInputIndex="7" mappedToCamera="False"/>
+            <Button index="8" externalInputIndex="8" mappedToCamera="False"/>
+            <Button index="9" externalInputIndex="9" mappedToCamera="False"/>
+        </ButtonMapping>
+        <UpstreamKeys sizeLink="True"/>
+    </Settings>
+    <VideoMode videoMode="1080p24"/>
+    <HyperDecks>
+        <HyperDeck id="0" networkAddress="0.0.0.0" input="0" autoRoll="False" autoRollFrameDelay="0"/>
+        <HyperDeck id="1" networkAddress="0.0.0.0" input="0" autoRoll="False" autoRollFrameDelay="0"/>
+        <HyperDeck id="2" networkAddress="0.0.0.0" input="0" autoRoll="False" autoRollFrameDelay="0"/>
+        <HyperDeck id="3" networkAddress="0.0.0.0" input="0" autoRoll="False" autoRollFrameDelay="0"/>
+    </HyperDecks>
+    <FairlightAudioMixer masterOutFaderGain="0" followFadeToBlack="False" audioFollowVideoCrossfadeTransition="False">
+        <MasterOutEqualizer enabled="True" gain="0">
+            <EqualizerBand index="0" enabled="False" shape="HighPass" frequencyRange="Low" frequency="46" gain="0" qFactor="0.71"/>
+            <EqualizerBand index="1" enabled="True" shape="LowShelf" frequencyRange="Low" frequency="49" gain="0" qFactor="0.8"/>
+            <EqualizerBand index="2" enabled="True" shape="BandPass" frequencyRange="MidLow" frequency="171" gain="0" qFactor="2.3"/>
+            <EqualizerBand index="3" enabled="True" shape="BandPass" frequencyRange="MidHigh" frequency="798" gain="0" qFactor="2.3"/>
+            <EqualizerBand index="4" enabled="True" shape="HighShelf" frequencyRange="High" frequency="7260" gain="0" qFactor="0.8"/>
+            <EqualizerBand index="5" enabled="False" shape="LowPass" frequencyRange="High" frequency="12900" gain="0" qFactor="0.71"/>
+        </MasterOutEqualizer>
+        <MasterOutDynamicsProcessor makeupGain="0">
+            <Compressor enabled="False" threshold="-35" ratio="2" attack="1.4" hold="0" release="93"/>
+            <Limiter enabled="False" threshold="-12" attack="0.71" hold="0" release="93"/>
+        </MasterOutDynamicsProcessor>
+        <AudioInputs>
+            <AudioInput configuration="Stereo" id="1">
+                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="3" mixOption="Off">
+                    <Equalizer enabled="True" gain="0">
+                        <EqualizerBand index="0" enabled="False" shape="HighPass" frequencyRange="Low" frequency="46" gain="0" qFactor="0.71"/>
+                        <EqualizerBand index="1" enabled="True" shape="LowShelf" frequencyRange="Low" frequency="49" gain="0" qFactor="0.8"/>
+                        <EqualizerBand index="2" enabled="True" shape="BandPass" frequencyRange="MidLow" frequency="171" gain="0" qFactor="2.3"/>
+                        <EqualizerBand index="3" enabled="True" shape="BandPass" frequencyRange="MidHigh" frequency="798" gain="0" qFactor="2.3"/>
+                        <EqualizerBand index="4" enabled="True" shape="HighShelf" frequencyRange="High" frequency="7260" gain="0" qFactor="0.8"/>
+                        <EqualizerBand index="5" enabled="False" shape="LowPass" frequencyRange="High" frequency="12900" gain="0" qFactor="0.71"/>
+                    </Equalizer>
+                    <DynamicsProcessor makeupGain="0">
+                        <Expander enabled="False" gateMode="False" threshold="-45" range="18" ratio="1.1" attack="1.4" hold="0" release="93"/>
+                        <Compressor enabled="False" threshold="-35" ratio="2" attack="1.4" hold="0" release="93"/>
+                        <Limiter enabled="False" threshold="-12" attack="0.71" hold="0" release="93"/>
+                    </DynamicsProcessor>
+                </AudioSource>
+            </AudioInput>
+            <AudioInput configuration="Stereo" id="2">
+                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0" mixOption="Off">
+                    <Equalizer enabled="True" gain="0">
+                        <EqualizerBand index="0" enabled="False" shape="HighPass" frequencyRange="Low" frequency="46" gain="0" qFactor="0.71"/>
+                        <EqualizerBand index="1" enabled="True" shape="LowShelf" frequencyRange="Low" frequency="49" gain="0" qFactor="0.8"/>
+                        <EqualizerBand index="2" enabled="True" shape="BandPass" frequencyRange="MidLow" frequency="171" gain="0" qFactor="2.3"/>
+                        <EqualizerBand index="3" enabled="True" shape="BandPass" frequencyRange="MidHigh" frequency="798" gain="0" qFactor="2.3"/>
+                        <EqualizerBand index="4" enabled="True" shape="HighShelf" frequencyRange="High" frequency="7260" gain="0" qFactor="0.8"/>
+                        <EqualizerBand index="5" enabled="False" shape="LowPass" frequencyRange="High" frequency="12900" gain="0" qFactor="0.71"/>
+                    </Equalizer>
+                    <DynamicsProcessor makeupGain="0">
+                        <Expander enabled="False" gateMode="False" threshold="-45" range="18" ratio="1.1" attack="1.4" hold="0" release="93"/>
+                        <Compressor enabled="False" threshold="-35" ratio="2" attack="1.4" hold="0" release="93"/>
+                        <Limiter enabled="False" threshold="-12" attack="0.71" hold="0" release="93"/>
+                    </DynamicsProcessor>
+                </AudioSource>
+            </AudioInput>
+            <AudioInput configuration="Stereo" id="3">
+                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0" mixOption="Off">
+                    <Equalizer enabled="True" gain="0">
+                        <EqualizerBand index="0" enabled="False" shape="HighPass" frequencyRange="Low" frequency="46" gain="0" qFactor="0.71"/>
+                        <EqualizerBand index="1" enabled="True" shape="LowShelf" frequencyRange="Low" frequency="49" gain="0" qFactor="0.8"/>
+                        <EqualizerBand index="2" enabled="True" shape="BandPass" frequencyRange="MidLow" frequency="171" gain="0" qFactor="2.3"/>
+                        <EqualizerBand index="3" enabled="True" shape="BandPass" frequencyRange="MidHigh" frequency="798" gain="0" qFactor="2.3"/>
+                        <EqualizerBand index="4" enabled="True" shape="HighShelf" frequencyRange="High" frequency="7260" gain="0" qFactor="0.8"/>
+                        <EqualizerBand index="5" enabled="False" shape="LowPass" frequencyRange="High" frequency="12900" gain="0" qFactor="0.71"/>
+                    </Equalizer>
+                    <DynamicsProcessor makeupGain="0">
+                        <Expander enabled="False" gateMode="False" threshold="-45" range="18" ratio="1.1" attack="1.4" hold="0" release="93"/>
+                        <Compressor enabled="False" threshold="-35" ratio="2" attack="1.4" hold="0" release="93"/>
+                        <Limiter enabled="False" threshold="-12" attack="0.71" hold="0" release="93"/>
+                    </DynamicsProcessor>
+                </AudioSource>
+            </AudioInput>
+            <AudioInput configuration="Stereo" id="4">
+                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0" mixOption="Off">
+                    <Equalizer enabled="True" gain="0">
+                        <EqualizerBand index="0" enabled="False" shape="HighPass" frequencyRange="Low" frequency="46" gain="0" qFactor="0.71"/>
+                        <EqualizerBand index="1" enabled="True" shape="LowShelf" frequencyRange="Low" frequency="49" gain="0" qFactor="0.8"/>
+                        <EqualizerBand index="2" enabled="True" shape="BandPass" frequencyRange="MidLow" frequency="171" gain="0" qFactor="2.3"/>
+                        <EqualizerBand index="3" enabled="True" shape="BandPass" frequencyRange="MidHigh" frequency="798" gain="0" qFactor="2.3"/>
+                        <EqualizerBand index="4" enabled="True" shape="HighShelf" frequencyRange="High" frequency="7260" gain="0" qFactor="0.8"/>
+                        <EqualizerBand index="5" enabled="False" shape="LowPass" frequencyRange="High" frequency="12900" gain="0" qFactor="0.71"/>
+                    </Equalizer>
+                    <DynamicsProcessor makeupGain="0">
+                        <Expander enabled="False" gateMode="False" threshold="-45" range="18" ratio="1.1" attack="1.4" hold="0" release="93"/>
+                        <Compressor enabled="False" threshold="-35" ratio="2" attack="1.4" hold="0" release="93"/>
+                        <Limiter enabled="False" threshold="-12" attack="0.71" hold="0" release="93"/>
+                    </DynamicsProcessor>
+                </AudioSource>
+            </AudioInput>
+            <AudioInput configuration="Stereo" id="1301">
+                <Analog level="Microphone"/>
+                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0" mixOption="Off">
+                    <Equalizer enabled="True" gain="0">
+                        <EqualizerBand index="0" enabled="False" shape="HighPass" frequencyRange="Low" frequency="46" gain="0" qFactor="0.71"/>
+                        <EqualizerBand index="1" enabled="True" shape="LowShelf" frequencyRange="Low" frequency="49" gain="0" qFactor="0.8"/>
+                        <EqualizerBand index="2" enabled="True" shape="BandPass" frequencyRange="MidLow" frequency="171" gain="0" qFactor="2.3"/>
+                        <EqualizerBand index="3" enabled="True" shape="BandPass" frequencyRange="MidHigh" frequency="798" gain="0" qFactor="2.3"/>
+                        <EqualizerBand index="4" enabled="True" shape="HighShelf" frequencyRange="High" frequency="7260" gain="0" qFactor="0.8"/>
+                        <EqualizerBand index="5" enabled="False" shape="LowPass" frequencyRange="High" frequency="12900" gain="0" qFactor="0.71"/>
+                    </Equalizer>
+                    <DynamicsProcessor makeupGain="0">
+                        <Expander enabled="False" gateMode="False" threshold="-45" range="18" ratio="1.1" attack="1.4" hold="0" release="93"/>
+                        <Compressor enabled="False" threshold="-35" ratio="2" attack="1.4" hold="0" release="93"/>
+                        <Limiter enabled="False" threshold="-12" attack="0.71" hold="0" release="93"/>
+                    </DynamicsProcessor>
+                </AudioSource>
+            </AudioInput>
+            <AudioInput configuration="Stereo" id="1302">
+                <Analog level="Microphone"/>
+                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0" mixOption="Off">
+                    <Equalizer enabled="True" gain="0">
+                        <EqualizerBand index="0" enabled="False" shape="HighPass" frequencyRange="Low" frequency="46" gain="0" qFactor="0.71"/>
+                        <EqualizerBand index="1" enabled="True" shape="LowShelf" frequencyRange="Low" frequency="49" gain="0" qFactor="0.8"/>
+                        <EqualizerBand index="2" enabled="True" shape="BandPass" frequencyRange="MidLow" frequency="171" gain="0" qFactor="2.3"/>
+                        <EqualizerBand index="3" enabled="True" shape="BandPass" frequencyRange="MidHigh" frequency="798" gain="0" qFactor="2.3"/>
+                        <EqualizerBand index="4" enabled="True" shape="HighShelf" frequencyRange="High" frequency="7260" gain="0" qFactor="0.8"/>
+                        <EqualizerBand index="5" enabled="False" shape="LowPass" frequencyRange="High" frequency="12900" gain="0" qFactor="0.71"/>
+                    </Equalizer>
+                    <DynamicsProcessor makeupGain="0">
+                        <Expander enabled="False" gateMode="False" threshold="-45" range="18" ratio="1.1" attack="1.4" hold="0" release="93"/>
+                        <Compressor enabled="False" threshold="-35" ratio="2" attack="1.4" hold="0" release="93"/>
+                        <Limiter enabled="False" threshold="-12" attack="0.71" hold="0" release="93"/>
+                    </DynamicsProcessor>
+                </AudioSource>
+            </AudioInput>
+        </AudioInputs>
+    </FairlightAudioMixer>
+    <MediaPlayers>
+        <MediaPlayer index="0" sourceType="Still" sourceIndex="14"/>
+    </MediaPlayers>
+    <MediaPool>
+        <Stills>
+            <Still index="0" name="Kid ThingBot Builder_Initial Sketch_Zoom background 5" path="ATEM Media Pool/Kid ThingBot Builder_Initial Sketch_Zoom background 5.png"/>
+            <Still index="1" name="framing_background 5" path="ATEM Media Pool/framing_background 5.png"/>
+            <Still index="2" name="F5 Logo Background Dark Blue 5" path="ATEM Media Pool/F5 Logo Background Dark Blue 5.png"/>
+            <Still index="3" name="zvb-public-spaces-30 6" path="ATEM Media Pool/zvb-public-spaces-30 6.png"/>
+            <Still index="4" name="IoT IceBerg_Zoom background 6" path="ATEM Media Pool/IoT IceBerg_Zoom background 6.png"/>
+            <Still index="5" name="Greece 5" path="ATEM Media Pool/Greece 5.png"/>
+            <Still index="6" name="Dubai-SZR 5" path="ATEM Media Pool/Dubai-SZR 5.png"/>
+            <Still index="7" name="Amsterdam 5" path="ATEM Media Pool/Amsterdam 5.png"/>
+            <Still index="8" name="Istanbul_Bridge 5" path="ATEM Media Pool/Istanbul_Bridge 5.png"/>
+            <Still index="9" name="Istanbul 5" path="ATEM Media Pool/Istanbul 5.png"/>
+            <Still index="10" name="LowerThirds_zakeer_zubair 5" path="ATEM Media Pool/LowerThirds_zakeer_zubair 5.png"/>
+            <Still index="11" name="Izmir 5" path="ATEM Media Pool/Izmir 5.png"/>
+            <Still index="12" name="Lower Third 5" path="ATEM Media Pool/Lower Third 5.png"/>
+            <Still index="13" name="Whiteboard 2" path="ATEM Media Pool/Whiteboard 2.png"/>
+            <Still index="14" name="F5 Logo Background Gray 2" path="ATEM Media Pool/F5 Logo Background Gray 2.png"/>
+        </Stills>
+    </MediaPool>
+    <MacroPool>
+        <Macro index="0" name="Office_Whiteboard" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background, Key1"/>
+            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="4.56"/>
+            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="4.14999"/>
+            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="0.630005"/>
+            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="0" ySize="0.470001"/>
+            <Op id="DVEKeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="4.77"/>
+            <Op id="DVEKeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="0.570007"/>
+            <Op id="DVEKeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="4.74001"/>
+            <Op id="DVEKeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="0.559998"/>
+            <Op id="DVEKeyShadowDirection" mixEffectBlockIndex="0" keyIndex="0" direction="18"/>
+            <Op id="DVEKeyShadowAltitude" mixEffectBlockIndex="0" keyIndex="0" altitude="95"/>
+            <Op id="DVEKeyBorderHue" mixEffectBlockIndex="0" keyIndex="0" hue="54.2"/>
+            <Op id="DVEKeyBorderSaturation" mixEffectBlockIndex="0" keyIndex="0" saturation="0.464005"/>
+            <Op id="DVEKeyBorderLuminescence" mixEffectBlockIndex="0" keyIndex="0" luminescence="0.0709991"/>
+            <Op id="DVEKeyBorderOuterSoftness" mixEffectBlockIndex="0" keyIndex="0" outerSoftness="8"/>
+            <Op id="FlyKeySetKeyFrame" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0"/>
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="13"/>
+            <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
+            <Op id="ProgramInput" mixEffectBlockIndex="0" input="MediaPlayer1"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera2"/>
+        </Macro>
+        <Macro index="1" name="Lower_Third" description="">
+            <Op id="ColorGeneratorHue" colorGeneratorIndex="1" hue="241"/>
+            <Op id="ColorGeneratorSaturation" colorGeneratorIndex="1" saturation="0.0110016"/>
+            <Op id="ColorGeneratorLuminescence" colorGeneratorIndex="1" luminescence="0.406998"/>
+            <Op id="ProgramInput" mixEffectBlockIndex="0" input="Color2"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera1"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="10"/>
+            <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
+            <Op id="DownstreamKeyAuto" keyIndex="0"/>
+            <Op id="MacroSleep" frames="50"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="14"/>
+            <Op id="ProgramInput" mixEffectBlockIndex="0" input="MediaPlayer1"/>
+        </Macro>
+        <Macro index="2" name="Chroma_Whiteboard" description="">
+            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="Chroma"/>
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
+            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="0.399994"/>
+            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="0" ySize="0.399994"/>
+            <Op id="FlyKeySetKeyFrame" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0"/>
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="-11.44"/>
+            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="-4.85001"/>
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="1" xPosition="9.5"/>
+            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="1" yPosition="-5.85001"/>
+            <Op id="FlyKeySetKeyFrame" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0"/>
+            <Op id="FlyKeyRunToKeyFrame" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0"/>
+            <Op id="ProgramInput" mixEffectBlockIndex="0" input="Camera2"/>
+        </Macro>
+        <Macro index="3" name="Grey_BG_cam1" description="">
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="14"/>
+            <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
+            <Op id="ProgramInput" mixEffectBlockIndex="0" input="MediaPlayer1"/>
+            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="Chroma"/>
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
+            <Op id="AdvancedChromaKeyKeyEdge" mixEffectBlockIndex="0" keyIndex="0" keyEdge="0.955994"/>
+            <Op id="AdvancedChromaKeyBackgroundLevel" mixEffectBlockIndex="0" keyIndex="0" backgroundLevel="0.266006"/>
+            <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="0.139999"/>
+        </Macro>
+        <Macro index="5" name="Chroma_Move_to_right" description="">
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="10"/>
+            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="-5"/>
+            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="0.389999"/>
+            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="0" ySize="0.389999"/>
+            <Op id="FlyKeySetKeyFrame" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="1"/>
+            <Op id="FlyKeyRunToKeyFrame" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="1"/>
+        </Macro>
+    </MacroPool>
+    <MacroControl loop="False"/>
+</Profile>

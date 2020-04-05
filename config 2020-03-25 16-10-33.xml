@@ -261,7 +261,7 @@
             <Op id="FlyKeyRunToKeyFrame" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0"/>
             <Op id="ProgramInput" mixEffectBlockIndex="0" input="Camera2"/>
         </Macro>
-            <Macro index="2" name="Chroma_SRC3" description="">
+            <Macro index="3" name="Chroma_SRC3" description="">
             <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="Chroma"/>
             <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
             <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="0.399994"/>
@@ -275,7 +275,8 @@
             <Op id="FlyKeyRunToKeyFrame" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0"/>
             <Op id="ProgramInput" mixEffectBlockIndex="0" input="Camera3"/>
         </Macro>
-        <Macro index="3" name="Grey_BG_cam1" description="">
+        <Macro index="4" name="Grey_BG_cam1" description="">
+            <Op id="ProgramInput" mixEffectBlockIndex="0" input="Camera1"/>
             <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="14"/>
             <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
             <Op id="ProgramInput" mixEffectBlockIndex="0" input="MediaPlayer1"/>
@@ -285,10 +286,10 @@
             <Op id="AdvancedChromaKeyBackgroundLevel" mixEffectBlockIndex="0" keyIndex="0" backgroundLevel="0.266006"/>
             <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="0.139999"/>
         </Macro>
-            <Macro index="3" name="Cam3" description="">
+            <Macro index="5" name="Cam3" description="">
             <Op id="ProgramInput" mixEffectBlockIndex="0" input="Camera3"/>
         </Macro>
-        <Macro index="5" name="Chroma_Move_to_right" description="">
+        <Macro index="6" name="Chroma_Move_to_right" description="">
             <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="10"/>
             <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="-5"/>
             <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="0.389999"/>

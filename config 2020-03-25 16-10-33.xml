@@ -190,21 +190,23 @@
     </MediaPlayers>
     <MediaPool>
         <Stills>
-<Still index="0" name="Sketch_Zoom background" path="ATEM Media Pool/Sketch_Zoom background.png"/>
-            <Still index="1" name="framing_background" path="ATEM Media Pool/framing_background.png"/>
-            <Still index="2" name="F5 Logo Background Dark Blue" path="ATEM Media Pool/F5 Logo Background Dark Blue.png"/>
-            <Still index="3" name="zvb-public-spaces-30" path="ATEM Media Pool/zvb-public-spaces-30.png"/>
-            <Still index="4" name="IoT IceBerg_Zoom background" path="ATEM Media Pool/IoT IceBerg_Zoom background.png"/>
+            <Still index="0" name="Sketch_Zoom_bg" path="ATEM Media Pool/Sketch_Zoom background.png"/>
+            <Still index="1" name="framing_bg" path="ATEM Media Pool/framing_background.png"/>
+            <Still index="2" name="F5_blue" path="ATEM Media Pool/F5_Logo_bg_Dark_Blue.png"/>
+            <Still index="3" name="F5_grey" path="ATEM Media Pool/F5_Logo_bg_Gray.png"/>
+            <Still index="4" name="Whiteboard" path="ATEM Media Pool/Whiteboard.jpg"/>
             <Still index="5" name="Greece" path="ATEM Media Pool/Greece.png"/>
-            <Still index="6" name="Dubai-SZR" path="ATEM Media Pool/Dubai-SZR.png"/>
+            <Still index="6" name="Dubai_SZR" path="ATEM Media Pool/Dubai_SZR.png"/>
             <Still index="7" name="Amsterdam" path="ATEM Media Pool/Amsterdam.png"/>
             <Still index="8" name="Istanbul_Bridge" path="ATEM Media Pool/Istanbul_Bridge.png"/>
             <Still index="9" name="Istanbul" path="ATEM Media Pool/Istanbul.png"/>
             <Still index="10" name="LowerThirds_zakeer_zubair" path="ATEM Media Pool/LowerThirds_zakeer_zubair.png"/>
             <Still index="11" name="Izmir" path="ATEM Media Pool/Izmir.png"/>
-            <Still index="12" name="Lower Third" path="ATEM Media Pool/Lower Third.png"/>
-            <Still index="13" name="Whiteboard" path="ATEM Media Pool/Whiteboard.png"/>
-            <Still index="14" name="F5 Logo Background Gray" path="ATEM Media Pool/F5 Logo Background Gray.png"/>
+            <Still index="12" name="Lower_Third" path="ATEM Media Pool/Lower_Third.png"/>
+            <Still index="13" name="Tree_BG" path="ATEM Media Pool/Tree_BG.png"/>
+            <Still index="14" name="Black_BG" path="ATEM Media Pool/Black_BG.png"/>
+            <Still index="15" name="lobby_bg" path="ATEM Media Pool/lobby_bg.png"/>
+            <Still index="16" name="IOT_bg" path="ATEM Media Pool/IceBerg_Zoom_bg.png"/>
         </Stills>
     </MediaPool>
         <MacroPool>
@@ -226,7 +228,7 @@
             <Op id="DVEKeyBorderLuminescence" mixEffectBlockIndex="0" keyIndex="0" luminescence="0.0709991"/>
             <Op id="DVEKeyBorderOuterSoftness" mixEffectBlockIndex="0" keyIndex="0" outerSoftness="8"/>
             <Op id="FlyKeySetKeyFrame" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0"/>
-            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="13"/>
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="4"/>
             <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
             <Op id="ProgramInput" mixEffectBlockIndex="0" input="MediaPlayer1"/>
@@ -276,8 +278,7 @@
             <Op id="ProgramInput" mixEffectBlockIndex="0" input="Camera3"/>
         </Macro>
         <Macro index="4" name="Grey_BG_cam1" description="">
-            <Op id="ProgramInput" mixEffectBlockIndex="0" input="Camera1"/>
-            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="14"/>
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="3"/>
             <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
             <Op id="ProgramInput" mixEffectBlockIndex="0" input="MediaPlayer1"/>
             <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="Chroma"/>
@@ -285,6 +286,7 @@
             <Op id="AdvancedChromaKeyKeyEdge" mixEffectBlockIndex="0" keyIndex="0" keyEdge="0.955994"/>
             <Op id="AdvancedChromaKeyBackgroundLevel" mixEffectBlockIndex="0" keyIndex="0" backgroundLevel="0.266006"/>
             <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="0.139999"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera1"/>
         </Macro>
             <Macro index="5" name="Cam3" description="">
             <Op id="ProgramInput" mixEffectBlockIndex="0" input="Camera3"/>

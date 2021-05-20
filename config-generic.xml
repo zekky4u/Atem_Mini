@@ -263,7 +263,6 @@
         <Macro index="2" name="Lower_Third" description="">
         	<Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="10"/>
         	<Op id="DownstreamKeyRate" keyIndex="0" rate="60"/>
-            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
             <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
             <Op id="DownstreamKeyAuto" keyIndex="0"/>
@@ -276,28 +275,24 @@
         	<Op id="AdvancedChromaKeySamplingModeEnabled" mixEffectBlockIndex="0" keyIndex="0" enabled="True"/>
             <Op id="AdvancedChromaKeyCursorXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="-6.78401"/>
             <Op id="AdvancedChromaKeyCursorYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="4.114"/>
-            <Op id="AdvancedChromaKeyBackgroundLevel" mixEffectBlockIndex="0" keyIndex="0" backgroundLevel="0.50"/>
-            <Op id="AdvancedChromaKeyForegroundLevel" mixEffectBlockIndex="0" keyIndex="0" foregroundLevel="0.0"/>
-            <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="0.00"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
             <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="Chroma"/>
             <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
-            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="0.26"/>
-            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="0" ySize="0.26"/>
+            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="0.32"/>
+            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="0" ySize="0.32"/>
             <Op id="FlyKeySetKeyFrame" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0"/>
-            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="-13.44"/>
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="-12.44"/>
             <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="-6.15"/>
             <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="1" xPosition="9.5"/>
             <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="1" yPosition="-5.85001"/>
             <Op id="FlyKeySetKeyFrame" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0"/>
             <Op id="FlyKeyRunToKeyFrame" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0"/>
-            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
             <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
             <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera1"/>
             <Op id="ProgramInput" mixEffectBlockIndex="0" input="Camera2"/>
         </Macro>
 			<Macro index="4" name="Cam2" description="ipad">
             <Op id="ProgramInput" mixEffectBlockIndex="0" input="Camera2"/>
-            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
             <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
         	<Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
@@ -312,11 +307,7 @@
             <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="Chroma"/>
             <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
-            <Op id="AdvancedChromaKeyKeyEdge" mixEffectBlockIndex="0" keyIndex="0" keyEdge="0.98"/>
-            <Op id="AdvancedChromaKeyBackgroundLevel" mixEffectBlockIndex="0" keyIndex="0" backgroundLevel="0.20"/>
-            <Op id="AdvancedChromaKeyForegroundLevel" mixEffectBlockIndex="0" keyIndex="0" foregroundLevel="0.0"/>
             <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="0.00"/>
-            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
             <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
             <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera1"/>
         </Macro>
@@ -330,17 +321,11 @@
             <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="Chroma"/>
             <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
-            <Op id="AdvancedChromaKeyKeyEdge" mixEffectBlockIndex="0" keyIndex="0" keyEdge="0.98"/>
-            <Op id="AdvancedChromaKeyBackgroundLevel" mixEffectBlockIndex="0" keyIndex="0" backgroundLevel="0.20"/>
-            <Op id="AdvancedChromaKeyForegroundLevel" mixEffectBlockIndex="0" keyIndex="0" foregroundLevel="0.0"/>
-            <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="0.00"/>
-            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
             <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
             <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera1"/>
         </Macro>
             <Macro index="7" name="Cam3" description="">
             <Op id="ProgramInput" mixEffectBlockIndex="0" input="Camera3"/>
-            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
             <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
         	<Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
@@ -362,10 +347,6 @@
             <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
             <Op id="AdvancedChromaKeyKeyEdge" mixEffectBlockIndex="0" keyIndex="0" keyEdge="0.98"/>
-            <Op id="AdvancedChromaKeyBackgroundLevel" mixEffectBlockIndex="0" keyIndex="0" backgroundLevel="0.20"/>
-            <Op id="AdvancedChromaKeyForegroundLevel" mixEffectBlockIndex="0" keyIndex="0" foregroundLevel="0.0"/>
-            <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="0.00"/>
-            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
             <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
             <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera1"/>
         </Macro>
@@ -376,11 +357,11 @@
             <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="0.15"/>
         </Macro>
         <Macro index="11" name="Mask_Zoomout" description="">
-            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="-10.35"/>
-            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="8.48"/>
-            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="10.50"/>
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="-10.99"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="6.9"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="8.91"/>
             <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="-9.00002"/>
-            <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="0.25006"/>
+            <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="0.15006"/>
             <Op id="AdvancedChromaKeyForegroundContrast" mixEffectBlockIndex="0" keyIndex="0" foregroundContrast="0.15"/>
             <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
         </Macro>
@@ -400,9 +381,37 @@
             <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="0.25006"/>
             <Op id="AdvancedChromaKeyForegroundContrast" mixEffectBlockIndex="0" keyIndex="0" foregroundContrast="0.15"/>
         </Macro>
-            <Macro index="16" name="brightness15" description="">
+            <Macro index="16" name="brightness-15" description="">
+            <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="-0.15006"/>
+            <Op id="AdvancedChromaKeyForegroundContrast" mixEffectBlockIndex="0" keyIndex="0" foregroundContrast="0.15"/>
+        </Macro>
+            <Macro index="17" name="Mask_Zoomout_wide" description="">
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="-14.25"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="9"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="12"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="-9.00002"/>
             <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="0.15006"/>
             <Op id="AdvancedChromaKeyForegroundContrast" mixEffectBlockIndex="0" keyIndex="0" foregroundContrast="0.15"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
+        </Macro>
+            <Macro index="18" name="Flying_key_side" description="">
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
+            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="0.90"/>
+            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="0" ySize="0.90"/>
+            <Op id="FlyKeySetKeyFrame" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0"/>
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="-4.00"/>
+            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="-1"/>
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="1" xPosition="9.5"/>
+            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="1" yPosition="-5.85001"/>
+        </Macro>
+            <Macro index="19" name="F5_office_mask" description="">
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="-14.35"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="9"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="16"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="-9.00002"/>
+            <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="-0.25006"/>
+            <Op id="AdvancedChromaKeyForegroundContrast" mixEffectBlockIndex="0" keyIndex="0" foregroundContrast="0.15"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
         </Macro>
     </MacroPool>
     <MacroControl loop="False"/>

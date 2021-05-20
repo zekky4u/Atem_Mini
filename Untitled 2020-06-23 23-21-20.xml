@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile majorVersion="1" minorVersion="5" product="ATEM Mini">
+    <MixEffectBlocks>
+        <MixEffectBlock index="0">
+            <Keys/>
+        </MixEffectBlock>
+    </MixEffectBlocks>
+    <MediaPlayers/>
+    <MacroPool>
+        <Macro index="0" name="office_wb_ipad" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background, Key1"/>
+            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
+            <Op id="DVEKeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="4.64"/>
+            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="4.2"/>
+            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="0.619995"/>
+            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="0" ySize="0.470001"/>
+            <Op id="DVEKeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="4.77"/>
+            <Op id="DVEKeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="0.570007"/>
+            <Op id="DVEKeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="4.74001"/>
+            <Op id="DVEKeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="0.559998"/>
+            <Op id="DVEKeyShadowDirection" mixEffectBlockIndex="0" keyIndex="0" direction="30"/>
+            <Op id="DVEKeyShadowAltitude" mixEffectBlockIndex="0" keyIndex="0" altitude="79"/>
+            <Op id="DVEKeyBorderHue" mixEffectBlockIndex="0" keyIndex="0" hue="54.2"/>
+            <Op id="DVEKeyBorderSaturation" mixEffectBlockIndex="0" keyIndex="0" saturation="0.464005"/>
+            <Op id="DVEKeyBorderLuminescence" mixEffectBlockIndex="0" keyIndex="0" luminescence="0.0709991"/>
+            <Op id="DVEKeyBorderOuterSoftness" mixEffectBlockIndex="0" keyIndex="0" outerSoftness="8"/>
+            <Op id="FlyKeySetKeyFrame" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0"/>
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="4"/>
+            <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
+            <Op id="ProgramInput" mixEffectBlockIndex="0" input="MediaPlayer1"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera2"/>
+        </Macro>
+        <Macro index="1" name="office_wb_Surface" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background, Key1"/>
+            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="4.64"/>
+            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="4.2"/>
+            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="0.440002"/>
+            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="0" ySize="0.440002"/>
+            <Op id="DVEKeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="4.77"/>
+            <Op id="DVEKeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="0.570007"/>
+            <Op id="DVEKeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="4.74001"/>
+            <Op id="DVEKeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="0.559998"/>
+            <Op id="DVEKeyShadowDirection" mixEffectBlockIndex="0" keyIndex="0" direction="30"/>
+            <Op id="DVEKeyShadowAltitude" mixEffectBlockIndex="0" keyIndex="0" altitude="79"/>
+            <Op id="DVEKeyBorderHue" mixEffectBlockIndex="0" keyIndex="0" hue="54.2"/>
+            <Op id="DVEKeyBorderSaturation" mixEffectBlockIndex="0" keyIndex="0" saturation="0.464005"/>
+            <Op id="DVEKeyBorderLuminescence" mixEffectBlockIndex="0" keyIndex="0" luminescence="0.0709991"/>
+            <Op id="DVEKeyBorderOuterSoftness" mixEffectBlockIndex="0" keyIndex="0" outerSoftness="8"/>
+            <Op id="FlyKeySetKeyFrame" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0"/>
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="4"/>
+            <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
+            <Op id="ProgramInput" mixEffectBlockIndex="0" input="MediaPlayer1"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera2"/>
+        </Macro>
+        <Macro index="2" name="Lower_Third" description="">
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="10"/>
+            <Op id="DownstreamKeyRate" keyIndex="0" rate="60"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
+            <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
+            <Op id="DownstreamKeyAuto" keyIndex="0"/>
+            <Op id="MacroSleep" frames="150"/>
+            <Op id="DownstreamKeyAuto" keyIndex="0"/>
+            <Op id="MacroSleep" frames="80"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+        </Macro>
+        <Macro index="3" name="Chroma_Whiteboard" description="">
+            <Op id="AdvancedChromaKeySamplingModeEnabled" mixEffectBlockIndex="0" keyIndex="0" enabled="True"/>
+            <Op id="AdvancedChromaKeyCursorXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="-6.78401"/>
+            <Op id="AdvancedChromaKeyCursorYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="4.114"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
+            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="Chroma"/>
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
+            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="0.320007"/>
+            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="0" ySize="0.320007"/>
+            <Op id="FlyKeySetKeyFrame" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0"/>
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="-12.44"/>
+            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="-6.14999"/>
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="1" xPosition="9.5"/>
+            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="1" yPosition="-5.85001"/>
+            <Op id="FlyKeySetKeyFrame" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0"/>
+            <Op id="FlyKeyRunToKeyFrame" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera1"/>
+            <Op id="ProgramInput" mixEffectBlockIndex="0" input="Camera2"/>
+        </Macro>
+        <Macro index="4" name="Cam2" description="ipad">
+            <Op id="ProgramInput" mixEffectBlockIndex="0" input="Camera2"/>
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+        </Macro>
+        <Macro index="5" name="sketch_bg_cam1" description="">
+            <Op id="AdvancedChromaKeySamplingModeEnabled" mixEffectBlockIndex="0" keyIndex="0" enabled="True"/>
+            <Op id="AdvancedChromaKeyCursorXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="-6.78401"/>
+            <Op id="AdvancedChromaKeyCursorYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="4.114"/>
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="0"/>
+            <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
+            <Op id="ProgramInput" mixEffectBlockIndex="0" input="MediaPlayer1"/>
+            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="Chroma"/>
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
+            <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="0"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera1"/>
+        </Macro>
+        <Macro index="6" name="Grey_BG_cam1" description="">
+            <Op id="AdvancedChromaKeySamplingModeEnabled" mixEffectBlockIndex="0" keyIndex="0" enabled="True"/>
+            <Op id="AdvancedChromaKeyCursorXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="-6.78401"/>
+            <Op id="AdvancedChromaKeyCursorYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="4.114"/>
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="3"/>
+            <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
+            <Op id="ProgramInput" mixEffectBlockIndex="0" input="MediaPlayer1"/>
+            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="Chroma"/>
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera1"/>
+        </Macro>
+        <Macro index="7" name="Cam3" description="">
+            <Op id="ProgramInput" mixEffectBlockIndex="0" input="Camera3"/>
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+        </Macro>
+        <Macro index="8" name="Chroma_Move_to_right" description="">
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="10"/>
+            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="-5"/>
+            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="0.389999"/>
+            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="0" ySize="0.389999"/>
+            <Op id="FlyKeySetKeyFrame" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="1"/>
+            <Op id="FlyKeyRunToKeyFrame" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="1"/>
+        </Macro>
+        <Macro index="9" name="pi_bg_cam1" description="">
+            <Op id="AdvancedChromaKeySamplingModeEnabled" mixEffectBlockIndex="0" keyIndex="0" enabled="True"/>
+            <Op id="AdvancedChromaKeyCursorXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="-6.78401"/>
+            <Op id="AdvancedChromaKeyCursorYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="4.114"/>
+            <Op id="ProgramInput" mixEffectBlockIndex="0" input="Camera3"/>
+            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="Chroma"/>
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
+            <Op id="AdvancedChromaKeyKeyEdge" mixEffectBlockIndex="0" keyIndex="0" keyEdge="0.979996"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera1"/>
+        </Macro>
+        <Macro index="10" name="dark_chroma" description="">
+            <Op id="AdvancedChromaKeyKeyEdge" mixEffectBlockIndex="0" keyIndex="0" keyEdge="1"/>
+            <Op id="AdvancedChromaKeyBackgroundLevel" mixEffectBlockIndex="0" keyIndex="0" backgroundLevel="1"/>
+            <Op id="AdvancedChromaKeyForegroundLevel" mixEffectBlockIndex="0" keyIndex="0" foregroundLevel="0.0399933"/>
+            <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="0.149994"/>
+        </Macro>
+        <Macro index="11" name="Mask_Zoomout" description="">
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="-11.15"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="6.89999"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="8.10001"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="-9.00002"/>
+            <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="0.150055"/>
+            <Op id="AdvancedChromaKeyForegroundContrast" mixEffectBlockIndex="0" keyIndex="0" foregroundContrast="0.149994"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
+        </Macro>
+        <Macro index="12" name="light Chroma" description="">
+            <Op id="AdvancedChromaKeyForegroundContrast" mixEffectBlockIndex="0" keyIndex="0" foregroundContrast="0.149994"/>
+            <Op id="AdvancedChromaKeyForegroundLevel" mixEffectBlockIndex="0" keyIndex="0" foregroundLevel="0.00999451"/>
+            <Op id="AdvancedChromaKeyBackgroundLevel" mixEffectBlockIndex="0" keyIndex="0" backgroundLevel="0.300003"/>
+            <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="0.250992"/>
+        </Macro>
+        <Macro index="13" name="Audio_Cam1_on" description="">
+            <Op id="FairlightAudioMixerInputSourceMixType" input="Camera1" sourceId="18446744073709486336" mixType="On"/>
+        </Macro>
+        <Macro index="14" name="Audio_Cam1_off" description="">
+            <Op id="FairlightAudioMixerInputSourceMixType" input="Camera1" sourceId="18446744073709486336" mixType="Off"/>
+        </Macro>
+        <Macro index="15" name="brightness25" description="">
+            <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="0.250061"/>
+            <Op id="AdvancedChromaKeyForegroundContrast" mixEffectBlockIndex="0" keyIndex="0" foregroundContrast="0.149994"/>
+        </Macro>
+        <Macro index="16" name="brightness-15" description="">
+            <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="-0.150055"/>
+            <Op id="AdvancedChromaKeyForegroundContrast" mixEffectBlockIndex="0" keyIndex="0" foregroundContrast="0.149994"/>
+        </Macro>
+        <Macro index="17" name="Mask_Zoomout_wide" description="">
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="-14.25"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="9"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="12"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="-9.00002"/>
+            <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="0.150055"/>
+            <Op id="AdvancedChromaKeyForegroundContrast" mixEffectBlockIndex="0" keyIndex="0" foregroundContrast="0.149994"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
+        </Macro>
+        <Macro index="18" name="Flying_key_side" description="">
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
+            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="0.899994"/>
+            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="0" ySize="0.899994"/>
+            <Op id="FlyKeySetKeyFrame" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0"/>
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="-4"/>
+            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="-1"/>
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="1" xPosition="9.5"/>
+            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="1" yPosition="-5.85001"/>
+        </Macro>
+        <Macro index="19" name="F5_office_mask" description="">
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="-14.35"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="9"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="16"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="-9.00002"/>
+            <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="-0.250061"/>
+            <Op id="AdvancedChromaKeyForegroundContrast" mixEffectBlockIndex="0" keyIndex="0" foregroundContrast="0.149994"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
+        </Macro>
+        <Macro index="20" name="Restore Config" description="">
+            <Op id="TransitionPosition" mixEffectBlockIndex="0" position="0"/>
+            <Op id="ProgramInput" mixEffectBlockIndex="0" input="MediaPlayer1"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera2"/>
+            <Op id="TransitionPreview" mixEffectBlockIndex="0" preview="False"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="0" rate="25"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="0" rate="25"/>
+            <Op id="TransitionDipInput" mixEffectBlockIndex="0" input="Color1"/>
+            <Op id="TransitionWipeRate" mixEffectBlockIndex="0" rate="25"/>
+            <Op id="TransitionWipePattern" mixEffectBlockIndex="0" pattern="TopLeftDiagonal"/>
+            <Op id="TransitionWipeSymmetry" mixEffectBlockIndex="0" symmetry="0.240997"/>
+            <Op id="TransitionWipeXPosition" mixEffectBlockIndex="0" xPosition="0.5"/>
+            <Op id="TransitionWipeYPosition" mixEffectBlockIndex="0" yPosition="0.5"/>
+            <Op id="TransitionWipeBorderFillInput" mixEffectBlockIndex="0" input="Color1"/>
+            <Op id="TransitionWipeBorderWidth" mixEffectBlockIndex="0" width="0"/>
+            <Op id="TransitionWipeBorderSoftness" mixEffectBlockIndex="0" softness="0.830002"/>
+            <Op id="TransitionDVERate" mixEffectBlockIndex="0" rate="25"/>
+            <Op id="TransitionStingerRate" mixEffectBlockIndex="0" rate="25"/>
+            <Op id="TransitionWipeAndDVEReverse" mixEffectBlockIndex="0" reverse="False"/>
+            <Op id="TransitionWipeAndDVEFlipFlop" mixEffectBlockIndex="0" flipFlop="True"/>
+            <Op id="TransitionDVEPattern" mixEffectBlockIndex="0" pattern="PushRight"/>
+            <Op id="TransitionDVEFillInput" mixEffectBlockIndex="0" input="MediaPlayer1"/>
+            <Op id="TransitionDVECutInput" mixEffectBlockIndex="0" input="MediaPlayer1Key"/>
+            <Op id="TransitionDVECutInputEnable" mixEffectBlockIndex="0" enable="True"/>
+            <Op id="TransitionStingerDVEPreMultiply" mixEffectBlockIndex="0" preMultiply="True"/>
+            <Op id="TransitionStingerDVEClip" mixEffectBlockIndex="0" clip="0.5"/>
+            <Op id="TransitionStingerDVEGain" mixEffectBlockIndex="0" gain="0.699997"/>
+            <Op id="TransitionStingerDVEInvert" mixEffectBlockIndex="0" invert="False"/>
+            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="Chroma"/>
+            <Op id="KeyCutInput" mixEffectBlockIndex="0" keyIndex="0" input="MediaPlayer1Key"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera1"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="9"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="-9.00002"/>
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="-16"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="16"/>
+            <Op id="LumaKeyPreMultiply" mixEffectBlockIndex="0" keyIndex="0" preMultiply="True"/>
+            <Op id="LumaKeyClip" mixEffectBlockIndex="0" keyIndex="0" clip="0.5"/>
+            <Op id="LumaKeyGain" mixEffectBlockIndex="0" keyIndex="0" gain="0.699997"/>
+            <Op id="LumaKeyInvert" mixEffectBlockIndex="0" keyIndex="0" invert="False"/>
+            <Op id="AdvancedChromaKeySampledColourY" mixEffectBlockIndex="0" keyIndex="0" y="0.674805"/>
+            <Op id="AdvancedChromaKeySampledColourCb" mixEffectBlockIndex="0" keyIndex="0" cb="0.162094"/>
+            <Op id="AdvancedChromaKeySampledColourCr" mixEffectBlockIndex="0" keyIndex="0" cr="0.101501"/>
+            <Op id="AdvancedChromaKeyForegroundLevel" mixEffectBlockIndex="0" keyIndex="0" foregroundLevel="0.0319977"/>
+            <Op id="AdvancedChromaKeyBackgroundLevel" mixEffectBlockIndex="0" keyIndex="0" backgroundLevel="0.348007"/>
+            <Op id="AdvancedChromaKeyKeyEdge" mixEffectBlockIndex="0" keyIndex="0" keyEdge="0.841995"/>
+            <Op id="AdvancedChromaKeySpillSuppress" mixEffectBlockIndex="0" keyIndex="0" spillSuppress="0"/>
+            <Op id="AdvancedChromaKeyFlareSuppress" mixEffectBlockIndex="0" keyIndex="0" flareSuppress="0"/>
+            <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="0" foregroundBrightness="0"/>
+            <Op id="AdvancedChromaKeyForegroundContrast" mixEffectBlockIndex="0" keyIndex="0" foregroundContrast="0"/>
+            <Op id="AdvancedChromaKeyForegroundColour" mixEffectBlockIndex="0" keyIndex="0" foregroundColour="1"/>
+            <Op id="AdvancedChromaKeyForegroundRed" mixEffectBlockIndex="0" keyIndex="0" foregroundRed="0"/>
+            <Op id="AdvancedChromaKeyForegroundGreen" mixEffectBlockIndex="0" keyIndex="0" foregroundGreen="0"/>
+            <Op id="AdvancedChromaKeyForegroundBlue" mixEffectBlockIndex="0" keyIndex="0" foregroundBlue="0"/>
+            <Op id="AdvancedChromaKeyCursorXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="-15.37"/>
+            <Op id="AdvancedChromaKeyCursorYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="8.37"/>
+            <Op id="AdvancedChromaKeyCursorSize" mixEffectBlockIndex="0" keyIndex="0" size="0.0619965"/>
+            <Op id="PatternKeyPattern" mixEffectBlockIndex="0" keyIndex="0" pattern="DiamondIris"/>
+            <Op id="PatternKeyInvert" mixEffectBlockIndex="0" keyIndex="0" invert="False"/>
+            <Op id="PatternKeySize" mixEffectBlockIndex="0" keyIndex="0" size="0.5"/>
+            <Op id="PatternKeySymmetry" mixEffectBlockIndex="0" keyIndex="0" symmetry="0.5"/>
+            <Op id="PatternKeySoftness" mixEffectBlockIndex="0" keyIndex="0" softness="0.830002"/>
+            <Op id="PatternKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="0.5"/>
+            <Op id="PatternKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="0.5"/>
+            <Op id="DVEKeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
+            <Op id="DVEKeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="0"/>
+            <Op id="DVEKeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="0"/>
+            <Op id="DVEKeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="0"/>
+            <Op id="DVEKeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="0"/>
+            <Op id="DVEKeyShadowEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
+            <Op id="DVEKeyShadowDirection" mixEffectBlockIndex="0" keyIndex="0" direction="36"/>
+            <Op id="DVEKeyShadowAltitude" mixEffectBlockIndex="0" keyIndex="0" altitude="25"/>
+            <Op id="DVEKeyBorderEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
+            <Op id="DVEKeyBorderHue" mixEffectBlockIndex="0" keyIndex="0" hue="0"/>
+            <Op id="DVEKeyBorderSaturation" mixEffectBlockIndex="0" keyIndex="0" saturation="0"/>
+            <Op id="DVEKeyBorderLuminescence" mixEffectBlockIndex="0" keyIndex="0" luminescence="0"/>
+            <Op id="DVEKeyBorderOuterWidth" mixEffectBlockIndex="0" keyIndex="0" outerWidth="0"/>
+            <Op id="DVEKeyBorderInnerWidth" mixEffectBlockIndex="0" keyIndex="0" innerWidth="0"/>
+            <Op id="DVEKeyBorderOuterSoftness" mixEffectBlockIndex="0" keyIndex="0" outerSoftness="0"/>
+            <Op id="DVEKeyBorderInnerSoftness" mixEffectBlockIndex="0" keyIndex="0" innerSoftness="0"/>
+            <Op id="DVEKeyBorderOpacity" mixEffectBlockIndex="0" keyIndex="0" opacity="100"/>
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="0"/>
+            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="0"/>
+            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="1"/>
+            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="0" ySize="1"/>
+            <Op id="DVEAndFlyKeyRate" mixEffectBlockIndex="0" keyIndex="0" rate="25"/>
+            <Op id="FlyKeyFrameXSize" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0" xSize="1"/>
+            <Op id="FlyKeyFrameYSize" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0" ySize="1"/>
+            <Op id="FlyKeyFrameXPosition" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0" xPosition="0"/>
+            <Op id="FlyKeyFrameYPosition" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0" yPosition="0"/>
+            <Op id="FlyKeyFrameBorderOuterWidth" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0" outerWidth="0"/>
+            <Op id="FlyKeyFrameBorderInnerWidth" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0" innerWidth="0"/>
+            <Op id="FlyKeyFrameBorderOuterSoftness" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0" outerSoftness="0"/>
+            <Op id="FlyKeyFrameBorderInnerSoftness" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0" innerSoftness="0"/>
+            <Op id="FlyKeyFrameBorderOpacity" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0" opacity="100"/>
+            <Op id="FlyKeyFrameBorderHue" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0" hue="0"/>
+            <Op id="FlyKeyFrameBorderSaturation" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0" saturation="0"/>
+            <Op id="FlyKeyFrameBorderLuminescence" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0" luminescence="0"/>
+            <Op id="FlyKeyFrameShadowDirection" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0" direction="36"/>
+            <Op id="FlyKeyFrameShadowAltitude" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0" altitude="25"/>
+            <Op id="FlyKeyFrameMaskTop" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0" top="0"/>
+            <Op id="FlyKeyFrameMaskBottom" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0" bottom="0"/>
+            <Op id="FlyKeyFrameMaskLeft" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0" left="0"/>
+            <Op id="FlyKeyFrameMaskRight" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="0" right="0"/>
+            <Op id="FlyKeyFrameXSize" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="1" xSize="0.460007"/>
+            <Op id="FlyKeyFrameYSize" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="1" ySize="0.460007"/>
+            <Op id="FlyKeyFrameXPosition" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="1" xPosition="-9.00002"/>
+            <Op id="FlyKeyFrameYPosition" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="1" yPosition="-5.00002"/>
+            <Op id="FlyKeyFrameBorderOuterWidth" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="1" outerWidth="0"/>
+            <Op id="FlyKeyFrameBorderInnerWidth" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="1" innerWidth="0"/>
+            <Op id="FlyKeyFrameBorderOuterSoftness" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="1" outerSoftness="0"/>
+            <Op id="FlyKeyFrameBorderInnerSoftness" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="1" innerSoftness="0"/>
+            <Op id="FlyKeyFrameBorderOpacity" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="1" opacity="100"/>
+            <Op id="FlyKeyFrameBorderHue" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="1" hue="0"/>
+            <Op id="FlyKeyFrameBorderSaturation" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="1" saturation="0"/>
+            <Op id="FlyKeyFrameBorderLuminescence" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="1" luminescence="0"/>
+            <Op id="FlyKeyFrameShadowDirection" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="1" direction="36"/>
+            <Op id="FlyKeyFrameShadowAltitude" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="1" altitude="25"/>
+            <Op id="FlyKeyFrameMaskTop" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="1" top="0"/>
+            <Op id="FlyKeyFrameMaskBottom" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="1" bottom="0"/>
+            <Op id="FlyKeyFrameMaskLeft" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="1" left="0"/>
+            <Op id="FlyKeyFrameMaskRight" mixEffectBlockIndex="0" keyIndex="0" keyFrameIndex="1" right="0"/>
+            <Op id="FadeToBlackRate" mixEffectBlockIndex="0" rate="25"/>
+            <Op id="FadeToBlackCut" mixEffectBlockIndex="0" fullyBlack="False"/>
+            <Op id="DownstreamKeyFillInput" keyIndex="0" input="MediaPlayer1"/>
+            <Op id="DownstreamKeyCutInput" keyIndex="0" input="MediaPlayer1Key"/>
+            <Op id="DownstreamKeyRate" keyIndex="0" rate="25"/>
+            <Op id="DownstreamKeyMaskEnable" keyIndex="0" enable="True"/>
+            <Op id="DownstreamKeyMaskTop" keyIndex="0" top="9"/>
+            <Op id="DownstreamKeyMaskBottom" keyIndex="0" bottom="-9.00002"/>
+            <Op id="DownstreamKeyMaskLeft" keyIndex="0" left="-16"/>
+            <Op id="DownstreamKeyMaskRight" keyIndex="0" right="16"/>
+            <Op id="DownstreamKeyPreMultiply" keyIndex="0" preMultiply="False"/>
+            <Op id="DownstreamKeyClip" keyIndex="0" clip="0.5"/>
+            <Op id="DownstreamKeyGain" keyIndex="0" gain="0.699997"/>
+            <Op id="DownstreamKeyInvert" keyIndex="0" invert="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="0" tie="False"/>
+            <Op id="ColorGeneratorHue" colorGeneratorIndex="0" hue="105"/>
+            <Op id="ColorGeneratorSaturation" colorGeneratorIndex="0" saturation="0.00100708"/>
+            <Op id="ColorGeneratorLuminescence" colorGeneratorIndex="0" luminescence="0.830002"/>
+            <Op id="ColorGeneratorHue" colorGeneratorIndex="1" hue="0"/>
+            <Op id="ColorGeneratorSaturation" colorGeneratorIndex="1" saturation="0"/>
+            <Op id="ColorGeneratorLuminescence" colorGeneratorIndex="1" luminescence="0"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="ME1Program"/>
+            <Op id="InputVideoPort" input="Camera1" videoPort="HDMI"/>
+            <Op id="InputVideoPort" input="Camera2" videoPort="HDMI"/>
+            <Op id="InputVideoPort" input="Camera3" videoPort="HDMI"/>
+            <Op id="InputVideoPort" input="Camera4" videoPort="HDMI"/>
+            <Op id="InputVideoPort" input="Camera1Direct" videoPort="HDMI"/>
+            <Op id="HyperDeckSetIPv4Address" hyperDeckIndex="0" networkIP="0"/>
+            <Op id="HyperDeckSetInput" hyperDeckIndex="0" input="Black"/>
+            <Op id="HyperDeckSetRollOnTake" hyperDeckIndex="0" enabled="False"/>
+            <Op id="HyperDeckSetRollOnTakeFrameDelay" hyperDeckIndex="0" frameDelay="0"/>
+            <Op id="HyperDeckSetIPv4Address" hyperDeckIndex="1" networkIP="0"/>
+            <Op id="HyperDeckSetInput" hyperDeckIndex="1" input="Black"/>
+            <Op id="HyperDeckSetRollOnTake" hyperDeckIndex="1" enabled="False"/>
+            <Op id="HyperDeckSetRollOnTakeFrameDelay" hyperDeckIndex="1" frameDelay="0"/>
+            <Op id="HyperDeckSetIPv4Address" hyperDeckIndex="2" networkIP="0"/>
+            <Op id="HyperDeckSetInput" hyperDeckIndex="2" input="Black"/>
+            <Op id="HyperDeckSetRollOnTake" hyperDeckIndex="2" enabled="False"/>
+            <Op id="HyperDeckSetRollOnTakeFrameDelay" hyperDeckIndex="2" frameDelay="0"/>
+            <Op id="HyperDeckSetIPv4Address" hyperDeckIndex="3" networkIP="0"/>
+            <Op id="HyperDeckSetInput" hyperDeckIndex="3" input="Black"/>
+            <Op id="HyperDeckSetRollOnTake" hyperDeckIndex="3" enabled="False"/>
+            <Op id="HyperDeckSetRollOnTakeFrameDelay" hyperDeckIndex="3" frameDelay="0"/>
+            <Op id="FairlightAudioMixerMasterOutFaderGain" gain="0"/>
+            <Op id="FairlightAudioMixerMasterOutFollowFadeToBlackMixEffectBlock1" follow="False"/>
+            <Op id="FairlightAudioMixerAfvFollowTransition" enable="False"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserEnabled" enabled="True"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserGain" gain="0"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandEnabled" band="0" enabled="False"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandShape" band="0" shape="HighPass"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandRange" band="0" range="Low"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandFrequency" band="0" frequency="46"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandGain" band="0" gain="0"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandQFactor" band="0" qFactor="0.710007"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandEnabled" band="1" enabled="True"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandShape" band="1" shape="LowShelf"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandRange" band="1" range="Low"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandFrequency" band="1" frequency="49"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandGain" band="1" gain="0"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandQFactor" band="1" qFactor="0.800003"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandEnabled" band="2" enabled="True"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandShape" band="2" shape="BandPass"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandRange" band="2" range="MidLow"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandFrequency" band="2" frequency="171"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandGain" band="2" gain="0"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandQFactor" band="2" qFactor="2.3"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandEnabled" band="3" enabled="True"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandShape" band="3" shape="BandPass"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandRange" band="3" range="MidHigh"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandFrequency" band="3" frequency="798"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandGain" band="3" gain="0"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandQFactor" band="3" qFactor="2.3"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandEnabled" band="4" enabled="True"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandShape" band="4" shape="HighShelf"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandRange" band="4" range="High"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandFrequency" band="4" frequency="7260"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandGain" band="4" gain="0"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandQFactor" band="4" qFactor="0.800003"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandEnabled" band="5" enabled="False"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandShape" band="5" shape="LowPass"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandRange" band="5" range="High"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandFrequency" band="5" frequency="12900"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandGain" band="5" gain="0"/>
+            <Op id="FairlightAudioMixerMasterOutEqualiserBandQFactor" band="5" qFactor="0.710007"/>
+            <Op id="FairlightAudioMixerMasterOutDynamicsGain" gain="0"/>
+            <Op id="FairlightAudioMixerMasterOutCompressorEnabled" enabled="False"/>
+            <Op id="FairlightAudioMixerMasterOutCompressorThreshold" threshold="-35"/>
+            <Op id="FairlightAudioMixerMasterOutCompressorRatio" ratio="2"/>
+            <Op id="FairlightAudioMixerMasterOutCompressorAttack" attack="1.39999"/>
+            <Op id="FairlightAudioMixerMasterOutCompressorHold" hold="0"/>
+            <Op id="FairlightAudioMixerMasterOutCompressorRelease" release="93"/>
+            <Op id="FairlightAudioMixerMasterOutLimiterEnabled" enabled="False"/>
+            <Op id="FairlightAudioMixerMasterOutLimiterThreshold" threshold="-12"/>
+            <Op id="FairlightAudioMixerMasterOutLimiterAttack" attack="0.710007"/>
+            <Op id="FairlightAudioMixerMasterOutLimiterHold" hold="0"/>
+            <Op id="FairlightAudioMixerMasterOutLimiterRelease" release="93"/>
+            <Op id="FairlightAudioMixerInputSourceInputGain" input="Camera1" sourceId="18446744073709486336" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourcePan" input="Camera1" sourceId="18446744073709486336" pan="0"/>
+            <Op id="FairlightAudioMixerInputSourceFaderGain" input="Camera1" sourceId="18446744073709486336" gain="3"/>
+            <Op id="FairlightAudioMixerInputSourceMixType" input="Camera1" sourceId="18446744073709486336" mixType="Off"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserEnabled" input="Camera1" sourceId="18446744073709486336" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserGain" input="Camera1" sourceId="18446744073709486336" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera1" sourceId="18446744073709486336" band="0" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera1" sourceId="18446744073709486336" band="0" shape="HighPass"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera1" sourceId="18446744073709486336" band="0" range="Low"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera1" sourceId="18446744073709486336" band="0" frequency="46"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera1" sourceId="18446744073709486336" band="0" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera1" sourceId="18446744073709486336" band="0" qFactor="0.710007"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera1" sourceId="18446744073709486336" band="1" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera1" sourceId="18446744073709486336" band="1" shape="LowShelf"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera1" sourceId="18446744073709486336" band="1" range="Low"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera1" sourceId="18446744073709486336" band="1" frequency="49"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera1" sourceId="18446744073709486336" band="1" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera1" sourceId="18446744073709486336" band="1" qFactor="0.800003"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera1" sourceId="18446744073709486336" band="2" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera1" sourceId="18446744073709486336" band="2" shape="BandPass"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera1" sourceId="18446744073709486336" band="2" range="MidLow"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera1" sourceId="18446744073709486336" band="2" frequency="171"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera1" sourceId="18446744073709486336" band="2" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera1" sourceId="18446744073709486336" band="2" qFactor="2.3"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera1" sourceId="18446744073709486336" band="3" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera1" sourceId="18446744073709486336" band="3" shape="BandPass"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera1" sourceId="18446744073709486336" band="3" range="MidHigh"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera1" sourceId="18446744073709486336" band="3" frequency="798"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera1" sourceId="18446744073709486336" band="3" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera1" sourceId="18446744073709486336" band="3" qFactor="2.3"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera1" sourceId="18446744073709486336" band="4" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera1" sourceId="18446744073709486336" band="4" shape="HighShelf"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera1" sourceId="18446744073709486336" band="4" range="High"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera1" sourceId="18446744073709486336" band="4" frequency="7260"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera1" sourceId="18446744073709486336" band="4" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera1" sourceId="18446744073709486336" band="4" qFactor="0.800003"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera1" sourceId="18446744073709486336" band="5" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera1" sourceId="18446744073709486336" band="5" shape="LowPass"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera1" sourceId="18446744073709486336" band="5" range="High"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera1" sourceId="18446744073709486336" band="5" frequency="12900"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera1" sourceId="18446744073709486336" band="5" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera1" sourceId="18446744073709486336" band="5" qFactor="0.710007"/>
+            <Op id="FairlightAudioMixerInputSourceDynamicsGain" input="Camera1" sourceId="18446744073709486336" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderEnabled" input="Camera1" sourceId="18446744073709486336" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderGateModeEnabled" input="Camera1" sourceId="18446744073709486336" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderThreshold" input="Camera1" sourceId="18446744073709486336" threshold="-45"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderRange" input="Camera1" sourceId="18446744073709486336" range="18"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderRatio" input="Camera1" sourceId="18446744073709486336" ratio="1.10001"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderAttack" input="Camera1" sourceId="18446744073709486336" attack="1.39999"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderHold" input="Camera1" sourceId="18446744073709486336" hold="0"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderRelease" input="Camera1" sourceId="18446744073709486336" release="93"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorEnabled" input="Camera1" sourceId="18446744073709486336" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorThreshold" input="Camera1" sourceId="18446744073709486336" threshold="-35"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorRatio" input="Camera1" sourceId="18446744073709486336" ratio="2"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorAttack" input="Camera1" sourceId="18446744073709486336" attack="1.39999"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorHold" input="Camera1" sourceId="18446744073709486336" hold="0"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorRelease" input="Camera1" sourceId="18446744073709486336" release="93"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterEnabled" input="Camera1" sourceId="18446744073709486336" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterThreshold" input="Camera1" sourceId="18446744073709486336" threshold="-12"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterAttack" input="Camera1" sourceId="18446744073709486336" attack="0.710007"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterHold" input="Camera1" sourceId="18446744073709486336" hold="0"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterRelease" input="Camera1" sourceId="18446744073709486336" release="93"/>
+            <Op id="FairlightAudioMixerInputSourceInputGain" input="Camera2" sourceId="18446744073709486336" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourcePan" input="Camera2" sourceId="18446744073709486336" pan="0"/>
+            <Op id="FairlightAudioMixerInputSourceFaderGain" input="Camera2" sourceId="18446744073709486336" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceMixType" input="Camera2" sourceId="18446744073709486336" mixType="Off"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserEnabled" input="Camera2" sourceId="18446744073709486336" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserGain" input="Camera2" sourceId="18446744073709486336" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera2" sourceId="18446744073709486336" band="0" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera2" sourceId="18446744073709486336" band="0" shape="HighPass"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera2" sourceId="18446744073709486336" band="0" range="Low"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera2" sourceId="18446744073709486336" band="0" frequency="46"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera2" sourceId="18446744073709486336" band="0" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera2" sourceId="18446744073709486336" band="0" qFactor="0.710007"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera2" sourceId="18446744073709486336" band="1" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera2" sourceId="18446744073709486336" band="1" shape="LowShelf"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera2" sourceId="18446744073709486336" band="1" range="Low"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera2" sourceId="18446744073709486336" band="1" frequency="49"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera2" sourceId="18446744073709486336" band="1" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera2" sourceId="18446744073709486336" band="1" qFactor="0.800003"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera2" sourceId="18446744073709486336" band="2" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera2" sourceId="18446744073709486336" band="2" shape="BandPass"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera2" sourceId="18446744073709486336" band="2" range="MidLow"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera2" sourceId="18446744073709486336" band="2" frequency="171"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera2" sourceId="18446744073709486336" band="2" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera2" sourceId="18446744073709486336" band="2" qFactor="2.3"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera2" sourceId="18446744073709486336" band="3" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera2" sourceId="18446744073709486336" band="3" shape="BandPass"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera2" sourceId="18446744073709486336" band="3" range="MidHigh"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera2" sourceId="18446744073709486336" band="3" frequency="798"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera2" sourceId="18446744073709486336" band="3" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera2" sourceId="18446744073709486336" band="3" qFactor="2.3"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera2" sourceId="18446744073709486336" band="4" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera2" sourceId="18446744073709486336" band="4" shape="HighShelf"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera2" sourceId="18446744073709486336" band="4" range="High"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera2" sourceId="18446744073709486336" band="4" frequency="7260"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera2" sourceId="18446744073709486336" band="4" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera2" sourceId="18446744073709486336" band="4" qFactor="0.800003"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera2" sourceId="18446744073709486336" band="5" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera2" sourceId="18446744073709486336" band="5" shape="LowPass"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera2" sourceId="18446744073709486336" band="5" range="High"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera2" sourceId="18446744073709486336" band="5" frequency="12900"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera2" sourceId="18446744073709486336" band="5" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera2" sourceId="18446744073709486336" band="5" qFactor="0.710007"/>
+            <Op id="FairlightAudioMixerInputSourceDynamicsGain" input="Camera2" sourceId="18446744073709486336" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderEnabled" input="Camera2" sourceId="18446744073709486336" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderGateModeEnabled" input="Camera2" sourceId="18446744073709486336" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderThreshold" input="Camera2" sourceId="18446744073709486336" threshold="-45"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderRange" input="Camera2" sourceId="18446744073709486336" range="18"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderRatio" input="Camera2" sourceId="18446744073709486336" ratio="1.10001"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderAttack" input="Camera2" sourceId="18446744073709486336" attack="1.39999"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderHold" input="Camera2" sourceId="18446744073709486336" hold="0"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderRelease" input="Camera2" sourceId="18446744073709486336" release="93"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorEnabled" input="Camera2" sourceId="18446744073709486336" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorThreshold" input="Camera2" sourceId="18446744073709486336" threshold="-35"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorRatio" input="Camera2" sourceId="18446744073709486336" ratio="2"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorAttack" input="Camera2" sourceId="18446744073709486336" attack="1.39999"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorHold" input="Camera2" sourceId="18446744073709486336" hold="0"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorRelease" input="Camera2" sourceId="18446744073709486336" release="93"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterEnabled" input="Camera2" sourceId="18446744073709486336" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterThreshold" input="Camera2" sourceId="18446744073709486336" threshold="-12"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterAttack" input="Camera2" sourceId="18446744073709486336" attack="0.710007"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterHold" input="Camera2" sourceId="18446744073709486336" hold="0"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterRelease" input="Camera2" sourceId="18446744073709486336" release="93"/>
+            <Op id="FairlightAudioMixerInputSourceInputGain" input="Camera3" sourceId="18446744073709486336" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourcePan" input="Camera3" sourceId="18446744073709486336" pan="0"/>
+            <Op id="FairlightAudioMixerInputSourceFaderGain" input="Camera3" sourceId="18446744073709486336" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceMixType" input="Camera3" sourceId="18446744073709486336" mixType="Off"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserEnabled" input="Camera3" sourceId="18446744073709486336" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserGain" input="Camera3" sourceId="18446744073709486336" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera3" sourceId="18446744073709486336" band="0" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera3" sourceId="18446744073709486336" band="0" shape="HighPass"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera3" sourceId="18446744073709486336" band="0" range="Low"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera3" sourceId="18446744073709486336" band="0" frequency="46"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera3" sourceId="18446744073709486336" band="0" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera3" sourceId="18446744073709486336" band="0" qFactor="0.710007"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera3" sourceId="18446744073709486336" band="1" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera3" sourceId="18446744073709486336" band="1" shape="LowShelf"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera3" sourceId="18446744073709486336" band="1" range="Low"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera3" sourceId="18446744073709486336" band="1" frequency="49"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera3" sourceId="18446744073709486336" band="1" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera3" sourceId="18446744073709486336" band="1" qFactor="0.800003"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera3" sourceId="18446744073709486336" band="2" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera3" sourceId="18446744073709486336" band="2" shape="BandPass"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera3" sourceId="18446744073709486336" band="2" range="MidLow"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera3" sourceId="18446744073709486336" band="2" frequency="171"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera3" sourceId="18446744073709486336" band="2" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera3" sourceId="18446744073709486336" band="2" qFactor="2.3"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera3" sourceId="18446744073709486336" band="3" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera3" sourceId="18446744073709486336" band="3" shape="BandPass"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera3" sourceId="18446744073709486336" band="3" range="MidHigh"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera3" sourceId="18446744073709486336" band="3" frequency="798"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera3" sourceId="18446744073709486336" band="3" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera3" sourceId="18446744073709486336" band="3" qFactor="2.3"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera3" sourceId="18446744073709486336" band="4" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera3" sourceId="18446744073709486336" band="4" shape="HighShelf"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera3" sourceId="18446744073709486336" band="4" range="High"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera3" sourceId="18446744073709486336" band="4" frequency="7260"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera3" sourceId="18446744073709486336" band="4" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera3" sourceId="18446744073709486336" band="4" qFactor="0.800003"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera3" sourceId="18446744073709486336" band="5" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera3" sourceId="18446744073709486336" band="5" shape="LowPass"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera3" sourceId="18446744073709486336" band="5" range="High"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera3" sourceId="18446744073709486336" band="5" frequency="12900"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera3" sourceId="18446744073709486336" band="5" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera3" sourceId="18446744073709486336" band="5" qFactor="0.710007"/>
+            <Op id="FairlightAudioMixerInputSourceDynamicsGain" input="Camera3" sourceId="18446744073709486336" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderEnabled" input="Camera3" sourceId="18446744073709486336" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderGateModeEnabled" input="Camera3" sourceId="18446744073709486336" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderThreshold" input="Camera3" sourceId="18446744073709486336" threshold="-45"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderRange" input="Camera3" sourceId="18446744073709486336" range="18"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderRatio" input="Camera3" sourceId="18446744073709486336" ratio="1.10001"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderAttack" input="Camera3" sourceId="18446744073709486336" attack="1.39999"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderHold" input="Camera3" sourceId="18446744073709486336" hold="0"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderRelease" input="Camera3" sourceId="18446744073709486336" release="93"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorEnabled" input="Camera3" sourceId="18446744073709486336" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorThreshold" input="Camera3" sourceId="18446744073709486336" threshold="-35"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorRatio" input="Camera3" sourceId="18446744073709486336" ratio="2"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorAttack" input="Camera3" sourceId="18446744073709486336" attack="1.39999"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorHold" input="Camera3" sourceId="18446744073709486336" hold="0"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorRelease" input="Camera3" sourceId="18446744073709486336" release="93"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterEnabled" input="Camera3" sourceId="18446744073709486336" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterThreshold" input="Camera3" sourceId="18446744073709486336" threshold="-12"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterAttack" input="Camera3" sourceId="18446744073709486336" attack="0.710007"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterHold" input="Camera3" sourceId="18446744073709486336" hold="0"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterRelease" input="Camera3" sourceId="18446744073709486336" release="93"/>
+            <Op id="FairlightAudioMixerInputSourceInputGain" input="Camera4" sourceId="18446744073709486336" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourcePan" input="Camera4" sourceId="18446744073709486336" pan="0"/>
+            <Op id="FairlightAudioMixerInputSourceFaderGain" input="Camera4" sourceId="18446744073709486336" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceMixType" input="Camera4" sourceId="18446744073709486336" mixType="Off"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserEnabled" input="Camera4" sourceId="18446744073709486336" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserGain" input="Camera4" sourceId="18446744073709486336" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera4" sourceId="18446744073709486336" band="0" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera4" sourceId="18446744073709486336" band="0" shape="HighPass"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera4" sourceId="18446744073709486336" band="0" range="Low"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera4" sourceId="18446744073709486336" band="0" frequency="46"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera4" sourceId="18446744073709486336" band="0" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera4" sourceId="18446744073709486336" band="0" qFactor="0.710007"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera4" sourceId="18446744073709486336" band="1" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera4" sourceId="18446744073709486336" band="1" shape="LowShelf"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera4" sourceId="18446744073709486336" band="1" range="Low"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera4" sourceId="18446744073709486336" band="1" frequency="49"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera4" sourceId="18446744073709486336" band="1" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera4" sourceId="18446744073709486336" band="1" qFactor="0.800003"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera4" sourceId="18446744073709486336" band="2" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera4" sourceId="18446744073709486336" band="2" shape="BandPass"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera4" sourceId="18446744073709486336" band="2" range="MidLow"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera4" sourceId="18446744073709486336" band="2" frequency="171"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera4" sourceId="18446744073709486336" band="2" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera4" sourceId="18446744073709486336" band="2" qFactor="2.3"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera4" sourceId="18446744073709486336" band="3" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera4" sourceId="18446744073709486336" band="3" shape="BandPass"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera4" sourceId="18446744073709486336" band="3" range="MidHigh"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera4" sourceId="18446744073709486336" band="3" frequency="798"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera4" sourceId="18446744073709486336" band="3" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera4" sourceId="18446744073709486336" band="3" qFactor="2.3"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera4" sourceId="18446744073709486336" band="4" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera4" sourceId="18446744073709486336" band="4" shape="HighShelf"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera4" sourceId="18446744073709486336" band="4" range="High"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera4" sourceId="18446744073709486336" band="4" frequency="7260"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera4" sourceId="18446744073709486336" band="4" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera4" sourceId="18446744073709486336" band="4" qFactor="0.800003"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="Camera4" sourceId="18446744073709486336" band="5" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="Camera4" sourceId="18446744073709486336" band="5" shape="LowPass"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="Camera4" sourceId="18446744073709486336" band="5" range="High"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="Camera4" sourceId="18446744073709486336" band="5" frequency="12900"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="Camera4" sourceId="18446744073709486336" band="5" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="Camera4" sourceId="18446744073709486336" band="5" qFactor="0.710007"/>
+            <Op id="FairlightAudioMixerInputSourceDynamicsGain" input="Camera4" sourceId="18446744073709486336" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderEnabled" input="Camera4" sourceId="18446744073709486336" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderGateModeEnabled" input="Camera4" sourceId="18446744073709486336" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderThreshold" input="Camera4" sourceId="18446744073709486336" threshold="-45"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderRange" input="Camera4" sourceId="18446744073709486336" range="18"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderRatio" input="Camera4" sourceId="18446744073709486336" ratio="1.10001"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderAttack" input="Camera4" sourceId="18446744073709486336" attack="1.39999"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderHold" input="Camera4" sourceId="18446744073709486336" hold="0"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderRelease" input="Camera4" sourceId="18446744073709486336" release="93"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorEnabled" input="Camera4" sourceId="18446744073709486336" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorThreshold" input="Camera4" sourceId="18446744073709486336" threshold="-35"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorRatio" input="Camera4" sourceId="18446744073709486336" ratio="2"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorAttack" input="Camera4" sourceId="18446744073709486336" attack="1.39999"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorHold" input="Camera4" sourceId="18446744073709486336" hold="0"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorRelease" input="Camera4" sourceId="18446744073709486336" release="93"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterEnabled" input="Camera4" sourceId="18446744073709486336" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterThreshold" input="Camera4" sourceId="18446744073709486336" threshold="-12"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterAttack" input="Camera4" sourceId="18446744073709486336" attack="0.710007"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterHold" input="Camera4" sourceId="18446744073709486336" hold="0"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterRelease" input="Camera4" sourceId="18446744073709486336" release="93"/>
+            <Op id="FairlightAudioMixerAnalogInputLevel" input="ExternalMic" level="Microphone"/>
+            <Op id="FairlightAudioMixerInputSourceInputGain" input="ExternalMic" sourceId="18446744073709486336" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourcePan" input="ExternalMic" sourceId="18446744073709486336" pan="0"/>
+            <Op id="FairlightAudioMixerInputSourceFaderGain" input="ExternalMic" sourceId="18446744073709486336" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceMixType" input="ExternalMic" sourceId="18446744073709486336" mixType="Off"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserEnabled" input="ExternalMic" sourceId="18446744073709486336" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserGain" input="ExternalMic" sourceId="18446744073709486336" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="ExternalMic" sourceId="18446744073709486336" band="0" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="ExternalMic" sourceId="18446744073709486336" band="0" shape="HighPass"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="ExternalMic" sourceId="18446744073709486336" band="0" range="Low"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="ExternalMic" sourceId="18446744073709486336" band="0" frequency="46"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="ExternalMic" sourceId="18446744073709486336" band="0" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="ExternalMic" sourceId="18446744073709486336" band="0" qFactor="0.710007"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="ExternalMic" sourceId="18446744073709486336" band="1" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="ExternalMic" sourceId="18446744073709486336" band="1" shape="LowShelf"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="ExternalMic" sourceId="18446744073709486336" band="1" range="Low"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="ExternalMic" sourceId="18446744073709486336" band="1" frequency="49"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="ExternalMic" sourceId="18446744073709486336" band="1" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="ExternalMic" sourceId="18446744073709486336" band="1" qFactor="0.800003"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="ExternalMic" sourceId="18446744073709486336" band="2" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="ExternalMic" sourceId="18446744073709486336" band="2" shape="BandPass"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="ExternalMic" sourceId="18446744073709486336" band="2" range="MidLow"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="ExternalMic" sourceId="18446744073709486336" band="2" frequency="171"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="ExternalMic" sourceId="18446744073709486336" band="2" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="ExternalMic" sourceId="18446744073709486336" band="2" qFactor="2.3"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="ExternalMic" sourceId="18446744073709486336" band="3" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="ExternalMic" sourceId="18446744073709486336" band="3" shape="BandPass"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="ExternalMic" sourceId="18446744073709486336" band="3" range="MidHigh"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="ExternalMic" sourceId="18446744073709486336" band="3" frequency="798"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="ExternalMic" sourceId="18446744073709486336" band="3" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="ExternalMic" sourceId="18446744073709486336" band="3" qFactor="2.3"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="ExternalMic" sourceId="18446744073709486336" band="4" enabled="True"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="ExternalMic" sourceId="18446744073709486336" band="4" shape="HighShelf"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="ExternalMic" sourceId="18446744073709486336" band="4" range="High"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="ExternalMic" sourceId="18446744073709486336" band="4" frequency="7260"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="ExternalMic" sourceId="18446744073709486336" band="4" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="ExternalMic" sourceId="18446744073709486336" band="4" qFactor="0.800003"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandEnabled" input="ExternalMic" sourceId="18446744073709486336" band="5" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandShape" input="ExternalMic" sourceId="18446744073709486336" band="5" shape="LowPass"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandRange" input="ExternalMic" sourceId="18446744073709486336" band="5" range="High"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandFrequency" input="ExternalMic" sourceId="18446744073709486336" band="5" frequency="12900"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandGain" input="ExternalMic" sourceId="18446744073709486336" band="5" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceEqualiserBandQFactor" input="ExternalMic" sourceId="18446744073709486336" band="5" qFactor="0.710007"/>
+            <Op id="FairlightAudioMixerInputSourceDynamicsGain" input="ExternalMic" sourceId="18446744073709486336" gain="0"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderEnabled" input="ExternalMic" sourceId="18446744073709486336" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderGateModeEnabled" input="ExternalMic" sourceId="18446744073709486336" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderThreshold" input="ExternalMic" sourceId="18446744073709486336" threshold="-45"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderRange" input="ExternalMic" sourceId="18446744073709486336" range="18"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderRatio" input="ExternalMic" sourceId="18446744073709486336" ratio="1.10001"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderAttack" input="ExternalMic" sourceId="18446744073709486336" attack="1.39999"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderHold" input="ExternalMic" sourceId="18446744073709486336" hold="0"/>
+            <Op id="FairlightAudioMixerInputSourceExpanderRelease" input="ExternalMic" sourceId="18446744073709486336" release="93"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorEnabled" input="ExternalMic" sourceId="18446744073709486336" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorThreshold" input="ExternalMic" sourceId="18446744073709486336" threshold="-35"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorRatio" input="ExternalMic" sourceId="18446744073709486336" ratio="2"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorAttack" input="ExternalMic" sourceId="18446744073709486336" attack="1.39999"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorHold" input="ExternalMic" sourceId="18446744073709486336" hold="0"/>
+            <Op id="FairlightAudioMixerInputSourceCompressorRelease" input="ExternalMic" sourceId="18446744073709486336" release="93"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterEnabled" input="ExternalMic" sourceId="18446744073709486336" enabled="False"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterThreshold" input="ExternalMic" sourceId="18446744073709486336" threshold="-12"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterAttack" input="ExternalMic" sourceId="18446744073709486336" attack="0.710007"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterHold" input="ExternalMic" sourceId="18446744073709486336" hold="0"/>
+            <Op id="FairlightAudioMixerInputSourceLimiterRelease" input="ExternalMic" sourceId="18446744073709486336" release="93"/>
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="10"/>
+            <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
+            <Op id="TransitionPosition" mixEffectBlockIndex="0" position="0"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+        </Macro>
+        <Macro index="21" name="test123" description=""/>
+    </MacroPool>
+    <MacroControl loop="False"/>
+</Profile>
